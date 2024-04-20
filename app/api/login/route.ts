@@ -10,6 +10,10 @@ export async function POST(
     const body = await req.json();
     const { email, password } = body;
 
+    console.log("email: ", email);
+    console.log("password", password);
+    
+
     // Make a POST request to the Our API
     const response = await fetch(
         `${process.env.DJANGO_API_URL}/api/user/login/`,

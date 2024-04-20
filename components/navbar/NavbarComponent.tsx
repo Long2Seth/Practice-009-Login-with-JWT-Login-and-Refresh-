@@ -48,7 +48,7 @@ export default function NavbarComponent() {
 		<Navbar fluid rounded className="w-full">
 			<NavbarBrand as={Link} href="https://flowbite-react.com">
 				<img
-					src={avatar}
+					src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl59GqOsc8J8sdstPRflXbK8Vd-3CZZ_pCIKgUCUwDcQ&s"
 					className="mr-3 h-6 sm:h-9"
 					alt="Flowbite React Logo"
 				/>
